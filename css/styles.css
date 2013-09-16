@@ -1,0 +1,57 @@
+html {
+	height:100%;	
+}
+
+body {
+background-color:#0f0f0f;
+height:100%;
+
+}
+
+body, a, a:visited, a:link {
+	color:white;
+font-family:Courier New, Courier, sans serif;
+text-decoration:none;
+}
+
+a:hover {
+	color:#00ffd9;
+
+}
+
+
+.logo-centre {
+	width:80%;
+	margin:auto;
+	display:block;
+	position:relative;
+}
+
+.main-shit {
+	top:50%;
+	margin:-86px auto 0 auto;
+	display:block;
+	position:relative;
+	max-width:600px;
+}
+
+.deets {
+	text-align:center;
+	margin-top:30px;
+}
+
+@media (max-width: 600px) {
+	
+	.logo-centre {
+
+	}
+
+	.main-shit {
+
+			width:100%;
+		top:100px;
+		margin:0px auto 0 auto;
+		display:block;
+		position:relative;
+
+}
