@@ -7,8 +7,13 @@ $(function() {
     var videos = ['//player.vimeo.com/video/79639345', '//player.vimeo.com/video/80434974'];
 	$('.video-container').append('<iframe src="'+videos[0]+'" width="600" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
     for(var i=0; i < videos.length; i++){
-    	// $('.video-container').insertBefore('<a href=')
+    	$('.controls').append('<a class="'+i+'" href="#">'+i+'</a>');	
+    	console.log($('.controls.'+i+''));
+    	$('.controls.'+i+'').click(function(){
+    		alert('asdasd');
+    	});
 	}
+
 // Find all YouTube videos
 // var $allVideos = $("iframe[src^='http://player.vimeo.com']"),
 
